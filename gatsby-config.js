@@ -9,19 +9,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          "UA-204293970-1",
-        ],
-      }
+        trackingIds: ["UA-204293970-1"],
+      },
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        icon: "src/images/icon.png",
-      },
-    },
     "gatsby-plugin-mdx",
     {
       resolve: "gatsby-source-filesystem",
